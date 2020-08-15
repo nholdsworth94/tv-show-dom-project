@@ -4,12 +4,26 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>TV Show Project | Nick Holdsworth (nickholdsworth94)</title>
+	<title>TV Show Project | Nick Holdsworth (nholdsworth94)</title>
 	<link href="style.css" rel="stylesheet" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
+
+	<div class="headerCont">
+		<div class="left">
+			<select id="episodeSelect" class="medium">
+				<option selected disabled>Select an Episode</option>
+			</select>
+			<input type="text" id="search" class="medium" placeholder="Search..." />
+
+			<div id="totals">
+
+			</div>
+		</div>
+	</div>
+
 	<div id="root">
 	</div>
 
@@ -18,6 +32,12 @@
 
 	<!-- Loads YOUR javascript code -->
 	<script src="script.js"></script>
+
+	<div class="footerCont">
+		<div class="right">
+			Powered by <a href="https://tvmaze.com/">TV Maze</a>
+		</div>
+	</div>
 </body>
 
 </html>
